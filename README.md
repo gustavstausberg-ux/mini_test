@@ -1,14 +1,22 @@
-# Mini Test Project
+# Projectile Motion Explorer
 
-This is a small test project to practice my Python workflow, including virtual environments, Git, and GitHub.
+An interactive Python tool to explore projectile motion using physics formulas and visualizations.
 
-## Purpose
-The goal of this project is to:
-- practice setting up Python projects
-- understand virtual environments (venv)
-- learn Git and GitHub workflow
-- prepare for future physics-based scripts
+## Features
 
-## What it does
-Currently, the script prints:
-mini project running
+- Range analysis: required initial speed for a given distance
+- Trajectory plot: visualize projectile motion
+- Angle comparison: compare range, height, and flight time
+- Interactive sliders and mode switching
+
+## Tech
+
+- Python
+- NumPy
+- Matplotlib
+
+## How to run
+
+```bash
+source venv/bin/activate
+python main.py
